@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SMS Sender</title>
+</head>
+<body>
+<h1>SMS Sender</h1>
+<form action="/send" method="POST">
+    <label for="from">From:</label>
+    <input type="text" id="from" name="from"><br>
+
+    <label for="to">To:</label>
+    <input type="text" id="to" name="to"><br>
+
+    <label for="body">Body:</label>
+    <input type="text" id="body" name="body"><br>
+
+    <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
